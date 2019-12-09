@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfc07c35-a17c-4e7f-bb98-f49f1e7e0473" name="Default" comment="" />
+    <list default="true" id="bfc07c35-a17c-4e7f-bb98-f49f1e7e0473" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/bite/test/Hello.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,11 +68,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arr.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Arr.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bite/test/Arr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hello.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bite/test/Hello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +98,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -101,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/com/bite/com/Person.java" />
         <option value="$PROJECT_DIR$/src/com/bite/com/MainClass.java" />
         <option value="$PROJECT_DIR$/src/com/bite/test/Arr.java" />
+        <option value="$PROJECT_DIR$/src/com/bite/test/Hello.java" />
       </list>
     </option>
   </component>
@@ -119,6 +138,7 @@
     <option name="width" value="1204" />
     <option name="height" value="879" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -186,9 +206,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Arr">
+  <component name="RunManager" selected="Application.Hello">
     <configuration name="Arr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bite.test.Arr" />
+      <module name="firstPro" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bite.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bite.test.Hello" />
       <module name="firstPro" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -271,9 +302,11 @@
       <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.MainClass (1)" />
       <item itemvalue="Application.Arr" />
+      <item itemvalue="Application.Hello" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hello" />
         <item itemvalue="Application.Arr" />
         <item itemvalue="Application.MainClass (1)" />
         <item itemvalue="Application.MainClass" />
@@ -302,12 +335,12 @@
       <workItem from="1575877771466" duration="71000" />
       <workItem from="1575877883811" duration="740000" />
       <workItem from="1575879251961" duration="297000" />
-      <workItem from="1575889288914" duration="32000" />
+      <workItem from="1575889288914" duration="701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41457000" />
+    <option name="totallyTimeSpent" value="42126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -321,7 +354,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31784582" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -383,13 +416,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/bite/com/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bite/test/Arr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -794,8 +820,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bite/test/Arr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bite/test/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
